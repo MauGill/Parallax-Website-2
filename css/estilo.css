@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif; }
+
+body section nav {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1;
+  position: absolute;
+  padding: 3rem 5rem; }
+  body section nav h4 {
+    font-size: x-large; }
+  body section nav .button {
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: 0.5s; }
+    body section nav .button:hover {
+      font-size: 1.5em;
+      transition: 0.5s; }
+body section .container {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center; }
+  body section .container img {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    object-fit: cover; }
+  body section .container h2 {
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    font-size: 6rem;
+    cursor: pointer;
+    transition: 0.5s; }
+    body section .container h2:hover {
+      font-size: 6.5rem; }
+body .content {
+  width: 100%;
+  background: #000;
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute; }
+  body .content .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 80vh;
+    text-align: center; }
+  body .content .text {
+    padding: 2rem 10rem; }
+
+@media screen and (max-width: 700px) {
+  body section nav {
+    flex-direction: column; }
+    body section nav h4 {
+      padding: 10px; }
+    body section nav a {
+      text-align: center; }
+  body section .container h2 {
+    font-size: 5rem; }
+  body .content .images {
+    display: inherit; }
+    body .content .images img {
+      width: 100%; }
+  body .content .text {
+    padding: 1rem;
+    text-align: center; } }
+
+/*# sourceMappingURL=estilo.css.map */
